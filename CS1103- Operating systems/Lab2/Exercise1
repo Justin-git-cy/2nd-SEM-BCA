@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# 1. Start a background process (e.g., sleep command)
+sleep 1000 &
+
+# 2. Get the PID of the background process
+PID=$!
+
+# 3. Show the initial process status
+echo "Initial process status:"
+ps -o pid,stat,cmd -p $PID
+
+# 4. Pause (stop) the process
+kill -STOP $PID
+echo "Process paused. Verifying status after STOP signal..."
+ps -o pid,stat,cmd -p $PID
+
+# 5. Resume (continue) the process
+kill -CONT $PID
+echo "Process resumed. Verifying status after CONT signal..."
+ps -o pid,stat,cmd -p $PID
