@@ -39,13 +39,7 @@ read -p "Enter new owner (username): " new_owner
 read -p "Enter new group (groupname): " new_group
 # Change file ownership
 chown "$new_owner":"$new_group" "$filename"
-5. File Permissions: Write a shell script to modify file permissions and
-ownership using chmod and chown. Include user input for the filename
-and desired permissions, and display the new file permissions.
 
-SoCSE, RV University, Bengaluru, 560059
-
-CS1181 : Introduction to Operating System (2024–2025) 20 | P a g e
 if [ $? -eq 0 ]; then
 echo "Ownership for '$filename' changed to $new_owner:$new_group."
 else
