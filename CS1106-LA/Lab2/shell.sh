@@ -1,7 +1,7 @@
 
 #!/bin/bash
 
-gedit input.sh &
+gedit test_file.sh &
 disown
 
 firefox https://github.com &
