@@ -1,4 +1,4 @@
-import numpt as np
+import numpy as np
 arr = np.arange(24) 
 
 reshaped_arr = arr.reshape(6, 4)
