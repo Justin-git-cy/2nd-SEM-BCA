@@ -1,0 +1,139 @@
+Timestamp: Mon Mar 10 02:42:40 PM IST 2025 - Memory Usage:
+Mon Mar 10 02:42:40 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.3Gi        10Gi       987Mi       2.7Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:42:42 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.3Gi        10Gi       975Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:42:44 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.3Gi        10Gi       973Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:42:46 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.3Gi        10Gi       973Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:42:48 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.3Gi        10Gi       973Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:42:50 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.3Gi        10Gi       973Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:42:52 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.3Gi        10Gi       973Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:42:54 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.3Gi        10Gi       973Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:42:56 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.3Gi        10Gi       973Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:42:58 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.3Gi        10Gi       979Mi       2.7Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:00 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.3Gi        10Gi       1.0Gi       2.7Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:02 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.3Gi        10Gi       997Mi       2.7Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:05 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.3Gi        10Gi       973Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:07 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.3Gi        10Gi       973Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:09 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.3Gi        10Gi       973Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:11 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.2Gi        10Gi       973Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:13 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.2Gi        10Gi       973Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:15 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.3Gi        10Gi       973Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:17 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.3Gi        10Gi       973Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:19 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.3Gi        10Gi       973Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:21 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.3Gi        10Gi       979Mi       2.7Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:23 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.2Gi        10Gi       973Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:25 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.2Gi        10Gi       973Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:27 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.2Gi        10Gi       972Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:29 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.2Gi        10Gi       973Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:31 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.2Gi        10Gi       973Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:33 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.2Gi        10Gi       972Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:35 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.2Gi        10Gi       972Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:37 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.2Gi        10Gi       972Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:39 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.2Gi        10Gi       972Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:41 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.2Gi        10Gi       972Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:43 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.2Gi        10Gi       972Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:45 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.2Gi        10Gi       972Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:47 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.2Gi        10Gi       971Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:49 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.2Gi        10Gi       967Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:51 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.2Gi        10Gi       968Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:53 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.2Gi        10Gi       967Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:55 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.2Gi        10Gi       967Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:57 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.2Gi        10Gi       974Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:43:59 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.2Gi        10Gi       968Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:44:01 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.2Gi        10Gi       971Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:44:03 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.2Gi        10Gi       967Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:44:05 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.2Gi        10Gi       968Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:44:07 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.2Gi        10Gi       967Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:44:09 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.2Gi        10Gi       973Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Mon Mar 10 02:44:11 PM IST 2025 -                total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.2Gi        10Gi       967Mi       2.6Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
