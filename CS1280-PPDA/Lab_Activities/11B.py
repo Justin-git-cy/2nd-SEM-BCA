@@ -6,4 +6,4 @@ def identify_outliers(df, column):
     lower_bound = Q1 - 1.5 * IQR
     upper_bound = Q3 + 1.5 * IQR
     outliers = df[(df[column] < lower_bound) | (df[column] > upper_bound)]
-    return outliers, lower_bound, upper_
+    return outliers, lower_bound, upper_bound
