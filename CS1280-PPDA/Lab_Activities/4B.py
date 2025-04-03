@@ -1,11 +1,12 @@
-import shutil
-import os
+from google.colab import drive
+drive.mount('/content/drive')
 
-def file_operations(source, destination, operation):
-    """Performs renaming, copying, and moving of files."""
-    if operation == 'rename':
-        os.rename(source, destination)
-    elif operation == 'copy':
-        shutil.copy(source, destination)
-    elif operation == 'move':
-        shutil.move(source, destination)
+# List files in a Google Drive folder
+import os
+path = "/content/drive/My Drive/"
+files = os.listdir(path)
+print("Files in Google Drive:", files)
+
+# Copying a file in Google Drive
+shutil.copy(path + "file1.txt", path + "file1_copy.txt")
+print("File copied in Google Drive")
