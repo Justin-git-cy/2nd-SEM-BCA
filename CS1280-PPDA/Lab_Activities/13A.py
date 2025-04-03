@@ -1,8 +1,13 @@
-import pandas as pd
+# Creating sample DataFrames
+df1 = pd.DataFrame({'ID': [1, 2, 3], 'Name': ['Alice', 'Bob', 'Charlie'], 'Salary': [50000, 60000, 70000]})
+df2 = pd.DataFrame({'ID': [1, 2, 3], 'Department': ['HR', 'IT', 'Finance']})
 
-df1 = pd.DataFrame({'key': ['A', 'B', 'C'], 'val1': [1, 2, 3]})
-df2 = pd.DataFrame({'key': ['A', 'B', 'D'], 'val2': [4, 5, 6]})
-merged_df = df1.merge(df2, on='key', how='outer')
-grouped_df = merged_df.groupby('key').sum()
-concatenated_df = pd.concat([df1, df2], axis=0)
-joined_df = df1.set_index('key').join(df2.set_index('key'))
+merged_df = pd.merge(df1, df2, on='ID')
+print("\nMerged DataFrame:\n", merged_df)
+
+grouped_df = merged_df.groupby("Department").mean()
+print("\nGrouped Data:\n", grouped_df)
+
+df3 = pd.DataFrame({'ID': [4, 5], 'Name': ['David', 'Emma'], 'Salary': [80000, 90000]})
+concatenated_df = pd.concat([df1, df3], ignore_index=True)
+print("\nConcatenated DataFrame:\n", concatenated_df)
