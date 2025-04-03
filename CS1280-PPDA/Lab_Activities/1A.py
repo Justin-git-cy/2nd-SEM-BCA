@@ -1,12 +1,23 @@
-def calculator(a, b, operation):
-    """Performs basic arithmetic operations."""
-    if operation == 'add':
-        return a + b
-    elif operation == 'subtract':
-        return a - b
-    elif operation == 'multiply':
-        return a * b
-    elif operation == 'divide':
-        return a / b if b != 0 else 'Cannot divide by zero'
+def calculator():
+    print("Simple Calculator")
+    num1 = float(input("Enter first number: "))
+    operator = input("Enter operator (+, -, *, /): ")
+    num2 = float(input("Enter second number: "))
+
+    if operator == '+':
+        result = num1 + num2
+    elif operator == '-':
+        result = num1 - num2
+    elif operator == '*':
+        result = num1 * num2
+    elif operator == '/':
+        if num2 == 0:
+            result = "Error! Division by zero."
+        else:
+            result = num1 / num2
     else:
-        return 'Invalid operation'
+        result = "Invalid operator!"
+
+    print("Result:", result)
+
+calculator()
