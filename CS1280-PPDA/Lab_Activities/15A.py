@@ -1,3 +1,8 @@
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+
 df = pd.DataFrame(np.random.rand(10, 4), columns=["A", "B", "C", "D"])
 
 corr_matrix = df.corr()
