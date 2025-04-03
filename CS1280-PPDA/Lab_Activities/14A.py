@@ -1,13 +1,20 @@
 import seaborn as sns
 import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
 
-# Load sample dataset
-penguins = sns.load_dataset("penguins")
+# Sample Data
+data = np.random.normal(loc=50, scale=15, size=500)  # Normal Distribution
+df = pd.DataFrame({'Values': data})
 
-# Plot histogram and KDE for flipper_length_mm
+# **Histogram with KDE (Kernel Density Estimate)**
 plt.figure(figsize=(8, 5))
-sns.histplot(penguins["flipper_length_mm"], bins=20, kde=True, color="blue")
-plt.title("Distribution of Flipper Length in Penguins")
-plt.xlabel("Flipper Length (mm)")
-plt.ylabel("Frequency")
+sns.histplot(df['Values'], kde=True, bins=30)
+plt.title("Histogram & KDE of Values")
+plt.show()
+
+# **Boxplot to Identify Outliers**
+plt.figure(figsize=(6, 4))
+sns.boxplot(x=df['Values'])
+plt.title("Box Plot for Value Distribution")
 plt.show()
