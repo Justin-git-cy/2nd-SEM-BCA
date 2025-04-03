@@ -1,17 +1,14 @@
-import seaborn as sns
-import matplotlib.pyplot as plt
+import panda as pd 
+# Sample DataFrame
+df = pd.DataFrame({
+    "Department": ["HR", "IT", "Finance", "Marketing"],
+    "Salary": [55000, 80000, 75000, 65000]
+})
 
-# Load dataset
-penguins = sns.load_dataset("penguins")
-
-# Create bar plot
+# **Bar Plot**
 plt.figure(figsize=(8, 5))
-sns.barplot(data=penguins, x="species", y="body_mass_g", estimator=sum, ci=None, palette="viridis")
-
-# Add title and labels
-plt.title("Total Body Mass by Penguin Species")
-plt.xlabel("Species")
-plt.ylabel("Total Body Mass (g)")
-
-# Show plot
+sns.barplot(x="Department", y="Salary", data=df, palette="viridis")
+plt.title("Average Salary by Department")
+plt.xlabel("Department")
+plt.ylabel("Salary")
 plt.show()
