@@ -1,10 +1,13 @@
-import seaborn as sns
-import matplotlib.pyplot as plt
-import pandas as pd
+# Sample Data
+df = pd.DataFrame({
+    "Ad_Spend": [100, 200, 300, 400, 500, 600, 700],
+    "Sales": [20, 40, 55, 70, 90, 110, 130]
+})
 
-plt.figure(figsize=(8, 5))
-sns.scatterplot(data=penguins, x="flipper_length_mm", y="body_mass_g", hue="species", style="species", s=100)
-plt.title("Relationship Between Flipper Length and Body Mass")
-plt.xlabel("Flipper Length (mm)")
-plt.ylabel("Body Mass (g)")
+# **Scatter Plot**
+plt.figure(figsize=(7, 5))
+sns.scatterplot(x="Ad_Spend", y="Sales", data=df, color="r", s=100)
+plt.title("Relationship Between Advertising Spend and Sales")
+plt.xlabel("Advertising Spend ($)")
+plt.ylabel("Sales")
 plt.show()
