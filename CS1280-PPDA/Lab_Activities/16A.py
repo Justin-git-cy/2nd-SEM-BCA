@@ -1,3 +1,8 @@
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+
 # Creating Sample Time-Series Data
 df = pd.DataFrame({
     'Year': range(2010, 2021),
