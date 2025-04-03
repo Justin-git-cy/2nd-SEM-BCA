@@ -1,5 +1,10 @@
-def matrix_operations():
-    """Performs matrix operations using NumPy."""
-    mat1 = np.array([[1, 2], [3, 4]])
-    mat2 = np.array([[5, 6], [7, 8]])
-    return np.dot(mat1, mat2)  # Matrix multiplication
+import numpy as np
+
+array = np.random.randint(1, 21, (3, 3))
+print("Original Array:\n", array)
+
+mean_value = np.mean(array)
+print("\nMean of the array:", mean_value)
+
+array[array < 10] = 0
+print("\nModified Array:\n", array)
