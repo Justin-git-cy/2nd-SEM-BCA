@@ -1,9 +1,19 @@
-from sklearn.preprocessing import OneHotEncoder, LabelEncoder
+import pandas as pd
 
-def categorical_encoding(df, column):
-    """Applies OneHotEncoding and LabelEncoding."""
-    le = LabelEncoder()
-    df[column + '_label'] = le.fit_transform(df[column])
-    ohe = OneHotEncoder()
-    encoded = ohe.fit_transform(df[[column]]).toarray()
-    return df, encoded
+data = {
+    "Name": ["Alice", "Bob", "Charlie"],
+    "Age": [25, 30, 35],
+    "Salary": [50000, 60000, 70000]
+}
+
+print(df.describe())  
+
+print("25th Percentile:", df["Salary"].quantile(0.25))
+print("Median (50th Percentile):", df["Salary"].quantile(0.50))
+print("75th Percentile:", df["Salary"].quantile(0.75))
+
+print("Skewness:", df["Salary"].skew())
+
+print("Kurtosis:", df["Salary"].kurt())
+
+print(df["Name"].value_counts())
