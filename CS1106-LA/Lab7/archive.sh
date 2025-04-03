@@ -1,1 +1,1 @@
-tar -czvf file.tar.gz 
+tar -czvf archive.tar.gz
