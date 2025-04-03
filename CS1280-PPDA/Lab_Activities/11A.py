@@ -1,5 +1,6 @@
 from sklearn.preprocessing import StandardScaler, Normalizer, MinMaxScaler
 import numpy as np
+import pandas as pd
 
 data = {'Feature1': [10, 20, 30, 40, 50], 'Feature2': [100, 200, 300, 400, 500]}
 df = pd.DataFrame(data)
