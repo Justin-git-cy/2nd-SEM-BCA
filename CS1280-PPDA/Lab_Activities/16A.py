@@ -1,17 +1,13 @@
-import seaborn as sns
-import matplotlib.pyplot as plt
-import pandas as pd
+# Creating Sample Time-Series Data
+df = pd.DataFrame({
+    'Year': range(2010, 2021),
+    'Sales': [50, 60, 75, 85, 90, 120, 130, 140, 150, 165, 180]
+})
 
-# Load dataset
-penguins = sns.load_dataset("penguins").dropna()
-
-# Sort data by body mass for trend visualization
-penguins = penguins.sort_values(by="body_mass_g")
-
-# Plot line chart
+# **Line Chart**
 plt.figure(figsize=(8, 5))
-sns.lineplot(x=range(len(penguins)), y=penguins["body_mass_g"], marker="o", color="blue")
-plt.title("Trend of Body Mass in Penguins")
-plt.xlabel("Sample Index")
-plt.ylabel("Body Mass (g)")
+sns.lineplot(x="Year", y="Sales", data=df, marker="o", color="b")
+plt.title("Sales Trend Over Time")
+plt.xlabel("Year")
+plt.ylabel("Sales")
 plt.show()
