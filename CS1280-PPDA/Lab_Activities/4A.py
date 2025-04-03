@@ -1,6 +1,8 @@
 import pandas as pd
 
-def read_csv_analysis(file_path):
-    """Reads a CSV file and performs basic analysis."""
-    df = pd.read_csv(file_path)
-    return df.describe()
+def analyze_csv(filename):
+    df = pd.read_csv(filename)
+    print("\nBasic Statistics:\n", df.describe())  
+
+filename = "sample.csv"
+analyze_csv(filename)
