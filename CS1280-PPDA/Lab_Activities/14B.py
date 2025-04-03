@@ -1,8 +1,5 @@
-import seaborn as sns
+# Sample DataFrame
+df = sns.load_dataset("iris")  
 
-# Load sample dataset
-penguins = sns.load_dataset("penguins")
-
-# Create pair plot
-sns.pairplot(penguins, hue="species", diag_kind="kde")
+sns.pairplot(df, hue="species")  
 plt.show()
