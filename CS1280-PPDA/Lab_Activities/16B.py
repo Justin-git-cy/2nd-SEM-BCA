@@ -1,3 +1,8 @@
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+
 # Sample Data
 df = pd.DataFrame({
     "Ad_Spend": [100, 200, 300, 400, 500, 600, 700],
